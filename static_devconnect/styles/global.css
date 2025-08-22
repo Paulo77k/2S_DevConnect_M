@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+ font-family: Billabong;
+ src: url('https://path-to-your-font/Billabong.woff2') format('woff2'),
+      url('https://path-to-your-font/Billabong.woff') format('woff');
+ font-weight: normal;
+ font-style: normal;
+}
+:root {
+  --cor-preto: #000000; 
+  --cor-marrom: #382E23;
+  --cor-vermelho-escuro: #6F1D1B;
+  --cor-salmao: #FFEBDF;
+  --cor-semibranca:#F9F4F1;
+  --borda: 1px solid var(--cor-marrom);
+  --borda-arredondada: 2px;
+
+  --tamanho-fonte-lg: 20px:
+    --tamanho-fonte-md: 16px;
+    --tamanho-fonte-sm: 14px;
+}
+
+body {
+
+background-color: var(--cor-semibranca);
+
+
+}
+*{
+
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  
+
+  }
+
+  h1{ position: absolute;
+    z-index: 1;
+    
+
+
+
+
+  }
+  
