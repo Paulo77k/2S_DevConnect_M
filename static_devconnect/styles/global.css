@@ -44,4 +44,30 @@ background-color: var(--cor-semibranca);
 
 
   }
+ 
+
+.formulario-botao-azul{
+background-color: blue;
+border-radius: var(--borda-arrendondada);
+height: 35px;
+
+color: aliceblue;
+font-size: var(--tamanho-fonte-sm);
+border: none;
+
+}
+.formulario-campos > input{
+ border: var(--borda); 
+ height: 35px;
+ background-color: #ffffffeb;
+
+ color: #837f7dad;
+ font-size: var(--tamanho-fonte-sm);
+ border-radius: var(--borda-arredondada);
+}
+.formulario-campos > label{
+ font-size: var(--tamanho-fonte-sm); 
+ color: rgba(149, 151, 152, 0.707);
+ font-weight: 600;
+}
   
