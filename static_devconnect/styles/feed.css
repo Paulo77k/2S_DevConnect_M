@@ -1,0 +1,68 @@
+main{
+background-color: rgba(107, 104, 104, 0.542);
+width: 100%;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+margin-top: 20px;
+}
+
+.container-flex-publi{
+background-color: rgba(164, 173, 180, 0.627);
+height: 700px;
+width: 90px;
+max-width: 900px;
+
+}
+.container-flex-publi{
+      width: 90%;
+  height: 700px;
+  background-color: rgba(84, 84, 84, 0.192);
+
+
+}
+ 
+#stories {
+    background-color: rgba(150, 152, 153, 0.711);
+    width: 100%;
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    gap: 30px;
+
+}
+#stories::-webkit-scrollbar{
+    width: 0;
+}
+.card-storie{
+background-color: rgba(138, 121, 99, 0.308);
+border: 3px;
+border-color: black;
+}
+.card-storie > button{
+    background-color: transparent;
+    border: none;
+
+    font-size: var(--tamanho-fonte-sm);
+    color: 00000;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px ;
+
+
+}
+.card-storie>button>img{
+width: 80px;
+height: 80px;
+object-fit: cover;
+object-position: center;
+border-radius: 50%;
+}
+.formulario-botao-cadastre-se{
+width: 150px;
+}

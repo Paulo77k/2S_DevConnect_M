@@ -36,8 +36,10 @@ background-color: var(--cor-semibranca);
 
   }
 
-  h1{ position: absolute;
+  h1{ 
+    position: absolute;
     z-index: 1;
+    opacity: 0;
     
 
 
@@ -70,4 +72,75 @@ border: none;
  color: rgba(149, 151, 152, 0.707);
  font-weight: 600;
 }
+.estilo-formulario{
+    background-color: rgba(56, 126, 216, 0.416);
+    border: var(--borda);
+    width: 100%;
+    
+    
+}
+
+#campo-upload{
+display: none;
+
+}
+#texto-upload{
+display: inline-block;
+width: 300px;
+background-color: rgba(113, 119, 123, 0.525);
+border-radius: 2px;
+color: rgba(80, 80, 207, 0.708);
+}
+
+
+#cabecalho{
+background-color: #ffffff;
+width: 100%;
+height: 80px;
+display: flex;
+justify-content: center;
+border-bottom: var(--borda);
+}
+#cabecalho >  nav{
+
+width: 85%;
+max-width: 900px;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.cabecalho-acoes{
   
+  display: flex;
+  align-items: center;
+ 
+  gap: 15PX;
+
+}
+.cabecalho-acoes > a{
+  display: flex;
+  align-items: center;
+  
+}
+  #foto-perfil{
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+border-radius: 50%;
+  }
+  #logo-mobile{
+    display: none;
+  }
+
+  @media only screen and (max-width: 500px) { 
+   #logo-mobile{
+    display: initial;
+   } 
+   #logo-desktop{
+    display: none;  
+   }
+  }
+

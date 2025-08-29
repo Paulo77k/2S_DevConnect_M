@@ -39,9 +39,7 @@ align-items: center;
 
 }
 .estilo-formulario{
-    background-color: rgba(56, 126, 216, 0.416);
-    border: var(--borda);
-    width: 100%;
+  
     max-width: 342px;
     
 }
